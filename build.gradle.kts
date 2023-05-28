@@ -25,3 +25,9 @@ allprojects {
         jvmToolchain(17)
     }
 }
+
+project(":cqrs-es-core") {
+    dependencies {
+        implementation(project(":cqrs-es-api"))
+    }
+}
