@@ -9,7 +9,7 @@ allprojects {
     apply(plugin = "org.jlleitschuh.gradle.ktlint")
 
     group = "agency.cqrs"
-    version = "1.0-SNAPSHOT"
+    version = "0.0.1-SNAPSHOT"
 
     dependencies {
         testImplementation(kotlin("test"))
