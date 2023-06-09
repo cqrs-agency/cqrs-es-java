@@ -1,10 +1,12 @@
 plugins {
     kotlin("jvm") version "1.8.21"
+    id("org.jlleitschuh.gradle.ktlint") version "11.4.0"
     application
 }
 
 allprojects {
     apply(plugin = "kotlin")
+    apply(plugin = "org.jlleitschuh.gradle.ktlint")
 
     group = "agency.cqrs"
     version = "1.0-SNAPSHOT"
